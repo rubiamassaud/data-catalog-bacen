@@ -1,0 +1,12 @@
+# Ambiente virtual
+venv/
+.env
+
+# Saídas geradas
+output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
