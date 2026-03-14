@@ -59,8 +59,8 @@ As séries são configuráveis no `src/ingestor.py` — qualquer código da API 
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/rubiamassaud/data-catalog-pipeline
-cd data-catalog-pipeline
+git clone https://github.com/rubiamassaud/data-catalog-bacen
+cd data-catalog-bacen
 ```
 
 ### 2. Instale as dependências
