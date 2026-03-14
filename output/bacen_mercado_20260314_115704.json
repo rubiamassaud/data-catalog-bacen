@@ -1,0 +1,42 @@
+{
+  "dataset_name": "bacen_mercado",
+  "total_rows": 528,
+  "total_columns": 3,
+  "columns": [
+    {
+      "name": "data",
+      "type": "datetime64[us]",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 258,
+      "sample_values": [
+        "2025-03-14 00:00:00",
+        "2025-03-17 00:00:00",
+        "2025-03-18 00:00:00"
+      ]
+    },
+    {
+      "name": "valor",
+      "type": "float64",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 268,
+      "min": -0.11,
+      "max": 1107951.1,
+      "mean": 24343.0635
+    },
+    {
+      "name": "serie",
+      "type": "str",
+      "null_count": 0,
+      "null_pct": 0.0,
+      "unique_count": 4,
+      "sample_values": [
+        "selic",
+        "ipca",
+        "cambio"
+      ]
+    }
+  ],
+  "llm_report": "**Resumo do Dataset**\n\nO dataset \"bacen_mercado\" parece representar uma coleção de dados financeiros e econômicos, possivelmente relacionados ao Banco Central do Brasil (Bacen).\n\n**Qualidade dos Dados**\n\nOs dados apresentam uma boa qualidade, com nenhum valor nulo em todas as colunas. Os tipos de dados são coerentes, com \"data\" como datetime, \"valor\" como float e \"serie\" como string.\n\n**Colunas Relevantes**\n\nAs três colunas são relevantes, mas \"valor\" e \"serie\" parecem ser as mais importantes. A coluna \"valor\" contém valores financeiros com uma ampla faixa de variação, desde -0,11 até 1.107.951,10, com uma média de 24.343,06. A coluna \"serie\" contém apenas 4 valores únicos, que podem representar diferentes séries de dados econômicos, como taxa Selic, IPCA e câmbio.\n\n**Recomendação de Uso**\n\nEste dataset pode ser usado para analisar tendências econômicas e financeiras no Brasil, especialmente em relação às séries de dados representadas pela coluna \"serie\". Alguns exemplos de uso incluem:\n\n* Análise de correlação entre as diferentes séries de dados\n* Previsão de valores futuros com base em tendências passadas\n* Identificação de padrões e anomalias nos dados\n* Integração com outros datasets para obter uma visão mais completa da economia brasileira."
+}

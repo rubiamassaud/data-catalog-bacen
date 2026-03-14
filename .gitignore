@@ -3,7 +3,7 @@ venv/
 .env
 
 # Saídas geradas
-output/
+# output/
 
 # Python
 __pycache__/
